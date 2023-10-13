@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcf4ff;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-color: white;
+}
+
+.cel-sqaure {
+  background-color: #dcf4ff;
+  padding: 20px;
+  font-size: 45px;
+  height: 100px;
+  width: 100px;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.fa-x {
+  color: #fcc94a;
+}
+
+.fa-circle {
+  color: #469ff9;
+}
+
+.cel1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.cel2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.cel3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.cel4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.cel5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.cel6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.cel7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.cel8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.cel9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
